@@ -24,7 +24,7 @@ $console->add(new Ozziest\Maintenance\Up('app/cache'));
 $console->add(new Ozziest\Maintenance\Down('app/cache'));
 ```
 
-> You must define writable path for the class.
+> You must define writable path.
 
 `index.php`
 ```php 
