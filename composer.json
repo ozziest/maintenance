@@ -1,0 +1,23 @@
+{
+    "name": "ozziest/maintenance",
+    "description": "Simple maintenance commands for your applications.",
+    "keywords": ["php", "maintenance", "mode"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Özgür Adem Işıklı",
+            "email": "i.ozguradem@gmail.com",
+            "role": "Creator & Designer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/console": "2.*"        
+    },
+    "autoload": {
+        "psr-0": {
+            "Ozziest\\Maintenance": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
