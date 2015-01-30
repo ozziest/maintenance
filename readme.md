@@ -28,7 +28,7 @@ $console->add(new Ozziest\Maintenance\Down('app/cache'));
 
 `index.php`
 ```php 
-Ozziest\Maintenance\Maintenance::check('app/cache');
+Ozziest\Maintenance\Maintenance::check('app/cache', 'This is a maintenance message.');
 ```
 
 ## License
